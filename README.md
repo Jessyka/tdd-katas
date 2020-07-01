@@ -63,3 +63,19 @@ Example:
 |----------|:-------------:|:------:|:------:|
 | MMVI |  1000 + 1000 + 5 + 1 | 2006 | only + |
 | MCMXLIV |    1000 + (1000 - 100) + (50 - 10) + (5 - 1)    |   1944 | + and - |
+
+## Prime Number
+
+This kata demonstrates the transformation priority premise.
+
+Write a function generate under prime numbers that, given an integer, returns the list containing the prime factors in numerical sequence.
+
+1 should return []
+2 should return [2]
+3 should return [2,3]
+4 should return [2,3]
+5 should return [2,3,5]
+6 should return [2,3,5]
+7 should return [2,3,5,7]
+8 should return [2,3,5,7]
+9 should return [2,3,5,7]

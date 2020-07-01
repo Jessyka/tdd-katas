@@ -31,5 +31,3 @@ All tests should always pass, regardless of environment conditions.
 + greet returns *Good evening <name>* when the time is 18:00-22:00
 
 + greet returns *Good night <name>* when the time is 22:00-06:00
-
-+ greet logs into console each time it is called

@@ -70,12 +70,14 @@ This kata demonstrates the transformation priority premise.
 
 Write a function generate under prime numbers that, given an integer, returns the list containing the prime factors in numerical sequence.
 
-1 should return []
-2 should return [2]
-3 should return [2,3]
-4 should return [2,3]
-5 should return [2,3,5]
-6 should return [2,3,5]
-7 should return [2,3,5,7]
-8 should return [2,3,5,7]
-9 should return [2,3,5,7]
+| Input   |      Output    |
+|:--------:|:-------------:|
+|1| [] |
+|2| [2] |
+|3| [2,3] |
+|4| [2,3] |
+|5| [2,3,5] |
+|6| [2,3,5] |
+|7| [2,3,5,7] |
+|8| [2,3,5,7] |
+|9| [2,3,5,7] |

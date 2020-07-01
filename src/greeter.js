@@ -1,18 +1,18 @@
-const greet = name => {
-    name = name.trim();
-    
-    return `${getMessage()} ${name.charAt(0).toUpperCase() + name.slice(1)}`;
-}
+const greet = name => `${getMessage()} ${getName(name)}`;
+
+const getName = name => name.trim().charAt(0).toUpperCase() + name.trim().slice(1)
 
 const getMessage = () => {
-    var currentdate = new Date();
-    if(currentdate.getHours() >= 6 && currentdate.getHours() <= 12)
+    const currentdate = new Date();
+    const currentHour = currentdate.getHours();
+
+    if(currentHour >= 6 &&  currentHour <= 12)
         return 'Good morning';
 
-    if(currentdate.getHours() >= 18 && currentdate.getHours() <= 22)
+    if(currentHour >= 18 && currentHour <= 22)
         return 'Good evening';
     
-    if(currentdate.getHours() >= 22 || currentdate.getHours() < 6)
+    if(currentHour >= 22 || currentHour < 6)
         return 'Good night';
     
     return 'Hello'

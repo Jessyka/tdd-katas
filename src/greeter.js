@@ -1,4 +1,4 @@
-const greet = name => `Hello ${name}`
+const greet = name => `Hello ${name.trim()}`
 
 module.exports = {
     greet

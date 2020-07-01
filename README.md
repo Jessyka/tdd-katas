@@ -26,10 +26,10 @@ All tests should always pass, regardless of environment conditions.
 
 + greet capitalizes the first letter of the name
 
-+ greet returns Good morning <name> when the time is 06:00-12:00
++ greet returns *Good morning <name>* when the time is 06:00-12:00
 
-+ greet returns Good evening <name> when the time is 18:00-22:00
++ greet returns *Good evening <name>* when the time is 18:00-22:00
 
-+ greet returns Good night <name> when the time is 22:00-06:00
++ greet returns *Good night <name>* when the time is 22:00-06:00
 
 + greet logs into console each time it is called

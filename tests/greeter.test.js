@@ -45,4 +45,13 @@ describe('Greeter Class', () => {
         expect(greet('joao')).toBe('Good evening Joao');
         spy.mockRestore();
     })
+
+    it('greet returns Good night <name> when the time is 22:00-06:00', () => {
+        const mockDate =  new Date(2020, 1, 1, 23, 20);;
+        const spy = jest
+                .spyOn(global, 'Date')
+                .mockImplementation(() => mockDate);
+        expect(greet('joao')).toBe('Good night Joao');
+        spy.mockRestore();
+    })
 })

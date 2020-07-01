@@ -1,0 +1,22 @@
+{
+  "name": "tdd-katas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jessyka/tdd-katas.git"
+  },
+  "author": "Jessyka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jessyka/tdd-katas/issues"
+  },
+  "homepage": "https://github.com/Jessyka/tdd-katas#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}

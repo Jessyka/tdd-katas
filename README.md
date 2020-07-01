@@ -31,3 +31,11 @@ All tests should always pass, regardless of environment conditions.
 + greet returns *Good evening <name>* when the time is 18:00-22:00
 
 + greet returns *Good night <name>* when the time is 22:00-06:00
+
+## IP Validator
+
+# Ip Address Validator
+
+Create a class with one method called ​ValidateIpv4Address​. The method takes a string and return true if it is validhost assignable IP address and false if not.
+
+[Instructions here.](http://www.tddbuddy.com/katas/IP%20Validator.pdf)

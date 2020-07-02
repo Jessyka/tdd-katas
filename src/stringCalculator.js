@@ -1,12 +1,10 @@
 const sumOfNumbers = myString => {
-  if(myString == '')
-    return 0;
-  else{
-    let number = myString.split( /\s*,|\s\n*/);
-    let sum = 0;
+  let sum = 0;
+  if(myString !== ''){
+    let number = myString.split( /\s*,|\s\n*/); 
     number.forEach(item => sum += parseInt(item))
-    return sum;
   }
+  return sum;
 }
 
 module.exports = {
